@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HandRival</title>
+
+
+    <title>HandRival – Free Rock Paper Scissors Game Online</title>
+
+    <meta name="description"
+        content="Play HandRival, a free online Rock Paper Scissors game built with HTML, CSS, and JavaScript. Play against the computer, test your strategy, track your score, and enjoy this classic hand game!" />
+
+    <meta name="keywords"
+        content="HandRival, rock paper scissors game, play rock paper scissors online, free hand game, JavaScript game, browser game" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="HandRival – Free Rock Paper Scissors Game Online" />
+    <meta property="og:description"
+        content="Challenge the computer in HandRival, a fun Rock Paper Scissors game. Play online and track your score!" />
+    <meta property="og:type" content="website" />
+
+
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <h1>Rock&nbsp;Paper&nbsp;Scissors</h1>
@@ -14,8 +33,10 @@
     <main>
         <div class="choices">
             <button onclick="rock();" class="choice" id="rock"><img src="./image/rock.jpg" alt="_rock-hand"></button>
-            <button onclick="paper();" class="choice" id="paper"><img src="./image/paper.jpg" alt="_paper-hand"></button>
-            <button onclick="scissors();" class="choice" id="scissors"><img src="./image/scissor.png" alt="_scissors-hand"></button>
+            <button onclick="paper();" class="choice" id="paper"><img src="./image/paper.jpg"
+                    alt="_paper-hand"></button>
+            <button onclick="scissors();" class="choice" id="scissors"><img src="./image/scissor.png"
+                    alt="_scissors-hand"></button>
         </div>
         <div class="count">
             <p class="result"><span class="your-count">0</span><span>You</span></p>
@@ -27,4 +48,5 @@
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>
