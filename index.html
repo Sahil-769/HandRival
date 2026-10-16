@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HandRival</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Rock&nbsp;Paper&nbsp;Scissors</h1>
+    </header>
+    <main>
+        <div class="choices">
+            <button onclick="rock();" class="choice" id="rock"><img src="./image/rock.jpg" alt="_rock-hand"></button>
+            <button onclick="paper();" class="choice" id="paper"><img src="./image/paper.jpg" alt="_paper-hand"></button>
+            <button onclick="scissors();" class="choice" id="scissors"><img src="./image/scissor.png" alt="_scissors-hand"></button>
+        </div>
+        <div class="count">
+            <p class="result"><span class="your-count">0</span><span>You</span></p>
+            <p class="result"><span class="comp-count">0</span><span>Comp</span></p>
+        </div>
+        <div class="result-container">
+            <p class="msg">Play the Game</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
