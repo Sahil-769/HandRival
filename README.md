@@ -1,6 +1,6 @@
-# Clashora — Rock Paper Scissors
+# HandRival — Rock Paper Scissors
 
-Clashora is a fun, interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. Challenge the computer, test your luck and strategy, track your score, and see who wins each round with a simple, user-friendly interface.
+HandRival is a fun, interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. Challenge the computer, test your luck and strategy, track your score, and see who wins each round with a simple, user-friendly interface.
 
 **Features**
 - Interactive Rock, Paper, and Scissors gameplay
